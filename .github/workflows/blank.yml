@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Write file to Desktop
+        run: |
+          cd C:\Users\siim.tiilen\Desktop
+          echo "You're hacked - Jan" > virus.txt
