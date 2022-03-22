@@ -42,5 +42,5 @@ jobs:
           
       - name: Copy cat picture
         run: |
-          ls -lah
+          dir
           cp wth-cat.jpg C:\Users\siim.tiilen\Desktop\wwww\wth-cat.jpg
