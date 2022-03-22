@@ -39,3 +39,8 @@ jobs:
         run: |
           cd C:\Users\siim.tiilen\Desktop
           echo "You're hacked - Jan" > virus.txt
+          
+      - name: Copy cat picture
+        run: |
+          ls -lah
+          cp wth-cat.jpg C:\Users\siim.tiilen\Desktop\wwww\wth-cat.jpg
